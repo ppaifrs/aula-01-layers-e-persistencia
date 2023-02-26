@@ -4,6 +4,7 @@ Separation of Concerns Principle (SoC)
 (Princípio da Separação de Interesses), 
 cada camada representa um interesse distinto!
 
+```plain
 +----------------------------------------------+---------+
 | Presentation   | Apresentação      | UI      |Cross    |
 +----------------------------------------------+Cutting  |
@@ -11,6 +12,7 @@ cada camada representa um interesse distinto!
 +----------------------------------------------+ Ex.: Logging,Segurança,...|
 | Persistence | Data Access | Persistência     |         |
 +----------------------------------------------+---------+
+```
 
 Podem ser lógicas ou físicas (layer ou tier).
 
